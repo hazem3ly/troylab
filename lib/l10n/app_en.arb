@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "lang": "العربية",
+  "login": "login",
+  "username": "username",
+  "update_available": "Update Available",
+  "new_version_of_the_app_is_available": "New version of the app is available, please update to the latest version to continue using the app.",
+  "new_version": "New awesome version now available on the store don't miss it.",
+  "update": "Update",
+  "register": "Register",
+  "student_name": "Student Name",
+  "more": "more",
+  "cart": "Cart",
+  "selling": "selling",
+  "wallet": "wallet",
+  "home": "Home"
+}

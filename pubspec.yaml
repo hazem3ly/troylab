@@ -1,0 +1,103 @@
+name: troylab
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  flutter_flavorizr: ^2.1.4
+  another_flushbar: ^1.10.24
+  bloc: ^8.0.3
+  cached_network_image: ^3.1.0
+  collection: ^1.15.0
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.0
+  device_info_plus: ^3.1.1
+  dio: ^4.0.0
+  equatable: ^2.0.3
+  faker: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_screenutil: ^5.5.2
+  flutter_spinkit: ^5.0.0
+  flutter_svg: ^1.0.0
+  get_it: ^7.2.0
+  hydrated_bloc: ^8.1.0
+  intl: ^0.17.0
+  logger: ^1.1.0
+  mocktail: ^0.3.0
+  package_info: ^2.0.2
+  path_provider: ^2.0.2
+  pretty_dio_logger: ^1.1.1
+  shared_preferences: ^2.0.8
+  url_launcher: ^6.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+ uses-material-design: true
+ generate: true
+ assets:
+   - assets/images/
+
+
+
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios: null
+
+  flavors:
+    production:
+      app:
+        name: "TroyLab"
+
+      android:
+        applicationId: "com.troylab.task"
+
+      ios:
+        bundleId: "com.troylab.task"
+
+    development:
+      app:
+        name: "TroyLab"
+
+      android:
+        applicationId: "com.troylab.task.development"
+       
+      ios:
+        bundleId: "com.troylab.task.development"
+
+    staging:
+      app:
+        name: "TroyLab"
+
+      android:
+        applicationId: "com.troylab.task.staging"
+
+      ios:
+        bundleId: "com.troylab.task.staging"
+
+    mock:
+      app:
+        name: "TroyLab"
+
+      android:
+        applicationId: "com.troylab.task.mock"
+
+      ios:
+        bundleId: "com.troylab.task.mock"
